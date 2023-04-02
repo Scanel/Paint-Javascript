@@ -1,0 +1,140 @@
+body{
+    background-color: #b2dafa;
+}
+.menu{
+    background-color: #6a9eda;
+    padding: 30px;
+    border: 10px solid black;
+    
+}
+.menu button{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.menu label{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.menu input{
+    padding: 10px;
+    width: 70px;
+}
+.app{
+    display: flex;
+    padding: 50px;
+}
+
+.contenedor-izquierda{
+    width: 20%;
+    height: 100vh;
+    background-color: #6a9eda;
+    border-radius: 10px;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-paleta{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.contenedor-figuras{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.contenedor-figuras .icon{
+    background-color: white;
+    border: 1px solid black;
+}
+.contenedor-figuras .icon img{
+    width: 50px;
+    height: 50px;
+}
+.contenedor-ajustes .contenedor-ajustes-items{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.contenedor-ajustes .contenedor-ajustes-items .icon{
+    background-color: white;
+    border: 1px solid black;
+}
+.contenedor-ajustes .contenedor-ajustes-items .icon img{
+    width: 50px;
+    height: 50px;
+}
+.contenedor-opciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-opciones-items button{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 50px;
+    background-color: #202e3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#fileJson{
+    display: none;
+}
+.color{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.color-azul{
+    background-color: blue;
+}
+.color-rojo{
+    background-color: red;
+}
+.color-verde{
+    background-color: green;
+}
+.color-amarillo{
+    background-color: yellow;
+}
+.color-naranja{
+    background-color: orange;
+}
+.color-rosa{
+    background-color: pink;
+}
+.color-negro{
+    background-color: black;
+}
+
+.contenedor-derecha{
+    width: 80%;
+    /* padding: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    width: 100%;
+    position: relative;
+}
+canvas{
+    /* width: 1000px;
+    height: 1000px;  */
+    /* background-color: rgb(37, 37, 37); */
+    border: 10px solid black;
+    border-radius: 10px;
+    position: absolute;
+}
+.canvas{
+    background-color: white;
+}
+

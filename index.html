@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Algoritmos</title>
+</head>
+<body>
+  <div class="menu">
+    <button id="save">Guardar</button>
+          <input type="file" id="fileJson">
+          <button id="open">Abrir</button>
+          <button id="downloadPNG">Exportar a PNG</button>
+          <label for="grosor">Grosor de Línea: </label>
+          <input id="grosor" type="number" value="1" min="1" max="10">
+  </div>
+  <div class="app">
+    <div class="contenedor-izquierda">
+      <div class="contenedor-paleta">
+        <div id="color-azul" class="color-azul color"></div>
+        <div id="color-rojo" class="color-rojo color"></div>
+        <div id="color-amarillo" class="color-amarillo color"></div>
+        <div id="color-verde" class="color-verde color"></div>
+        <div id="color-naranja" class="color-naranja color"></div>
+        <div id="color-negro" class="color-negro color"></div>
+        <div id="color-rosa" class="color-rosa color"></div>
+      </div>
+      <div class="contenedor-figuras">
+        <div id="seleccion" class="icon"><img src="./assets/cursor.png" alt="seleccion"></div>
+        <div id="mover" class="icon"><img src="./assets/moverse.png" alt="mover"></div>
+        <div id="rotar" class="icon"><img src="./assets/rotate.png" alt="rotar"></div>
+        <div id="scale" class="icon"><img src="./assets/scale.png" alt="scale"></div>
+        <div id="paint" class="icon"><img src="./assets/varnish.png" alt="paint"></div>
+        <div id="delete" class="icon"><img src="./assets/delete.png" alt="delete"></div>
+        <div id="lapiz" class="icon"><img src="./assets/lapiz.png" alt="lapiz"></div>
+        <div id="linea" class="icon"><img src="./assets/linea-diagonal.png" alt="linea"></div>
+        <div id="square" class="icon"><img src="./assets/square.png" alt="square"></div>
+        <div id="rectangle" class="icon"><img src="./assets/rectangle.png" alt="rectangle"></div>
+        <div id="circulo" class="icon"><img src="./assets/circle.png" alt="circulo"></div>
+        <div id="elipse" class="icon"><img src="./assets/elipse.png" alt="elipse"></div>
+        <div id="pentagono" class="icon"><img src="./assets/forma-de-contorno-del-pentagono.png" alt="pentagono"></div>
+        <div id="hexagono" class="icon"><img src="./assets/contorno-de-forma-geometrica-hexagonal.png" alt="hexagono"></div>
+        <div id="octagono" class="icon"><img src="./assets/forma-de-contorno-de-octagono.png" alt="octagono"></div>
+        <div id="decagono" class="icon"><img src="./assets/decagono.png" alt="decagono"></div>
+      </div>
+      <div class="contenedor-ajustes">
+        <div class="contenedor-ajustes-items">
+          <div id="forward" class="icon"><img src="./assets/adelante.png" alt="seleccion"></div>
+          <div id="back" class="icon"><img src="./assets/atras.png" alt="seleccion"></div>
+          <div id="up" class="icon"><img src="./assets/up-arrow.png" alt="up"></div>
+          <div id="down" class="icon"><img src="./assets/down-arrow.png" alt="down"></div>
+          <div id="left" class="icon"><img src="./assets/left-arrow.png" alt="left"></div>
+          <div id="right" class="icon"><img src="./assets/right-arrow.png" alt="right"></div>
+        </div>
+      </div>
+      <div class="contenedor-opciones">
+        <div class="contenedor-opciones-items">
+          
+          <!-- <button id="downloadJPG">Exportar a JPG</button> -->
+        </div>
+      </div>
+    </div>
+    <div class="contenedor-derecha">
+      <div class="contenedor">
+        <canvas class="canvas" id="canvas" width="1400" height="1000"></canvas>
+        <canvas id="preview" width="1400" height="1000"></canvas>
+      </div>
+    </div>
+    
+  </div>
+  
+    
+
+</body>
+<script type="module"src="script.js"></script>
+<script>
+  // PMD(0,0,1,0,contexto);
+  // for(let i=0; i<1000; i++)
+  // {
+  //   PMD(0, i, 1000, i, contexto);
+  //   console.log(i);
+  // }
+
+  // for(let i=0; i<1000; i++)
+  // {
+  //   //DDA(1000, i, 0, i, contexto);
+  //   DDA(0, i, i, 0, contexto);
+  //   console.log(i);
+
+  // }
+  
+</script>
+</html>
